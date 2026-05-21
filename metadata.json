@@ -1,0 +1,6 @@
+{
+  "name": "Poster Maker",
+  "description": "Create custom posters by uploading templates and adding editable, emoji-supported text with adjustable size and positioning.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
