@@ -4,10 +4,11 @@ import { toPng } from 'html-to-image';
 import { motion, AnimatePresence } from 'motion/react';
 import { Rnd } from 'react-rnd';
 import { PosterState, PosterText } from './types';
+import defaultTemplate from './assets/images/regenerated_image_1779371896823.png';
 
 export default function App() {
   const TEMPLATES = [
-    { id: 'custom-default', url: '/src/assets/images/regenerated_image_1779371896823.png', name: '默认模板' },
+    { id: 'custom-default', url: defaultTemplate, name: '默认模板' },
     { id: '1', url: 'https://images.unsplash.com/photo-1626785774573-4b799315345d?q=80&w=2071&auto=format&fit=crop', name: '极简背景' },
     { id: '2', url: 'https://images.unsplash.com/photo-1557683316-973673baf926?q=80&w=2029&auto=format&fit=crop', name: '渐变蓝' },
     { id: '3', url: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1964&auto=format&fit=crop', name: '几何艺术' },
