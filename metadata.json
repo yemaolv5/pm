@@ -1,5 +1,5 @@
 {
-  "name": "Poster Maker",
+  "name": "yemaolv海报制作器",
   "description": "Create custom posters by uploading templates and adding editable, emoji-supported text with adjustable size and positioning.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]

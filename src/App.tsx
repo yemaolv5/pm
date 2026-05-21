@@ -177,10 +177,17 @@ export default function App() {
       {/* Sidebar */}
       <aside className="w-80 border-r border-slate-800 bg-slate-900 flex flex-col shadow-2xl z-10 overflow-y-auto shrink-0">
         <div className="p-6 border-b border-slate-800 bg-slate-900 sticky top-0 z-20">
-          <h1 className="text-xl font-bold bg-gradient-to-r from-blue-400 to-indigo-500 bg-clip-text text-transparent">
-            Poster Maker
-          </h1>
-          <p className="text-xs text-slate-500 mt-1 uppercase tracking-widest font-medium">海报制作器</p>
+          <div className="flex flex-col">
+            <span className="text-[10px] font-bold text-blue-500 tracking-[0.2em] mb-1">DESIGNED BY</span>
+            <h1 className="text-2xl font-bold tracking-tight">
+              <span className="font-display bg-gradient-to-br from-white via-blue-400 to-indigo-600 bg-clip-text text-transparent italic">yemaolv</span>
+              <span className="text-slate-400 font-light ml-1 text-lg">海报制作</span>
+            </h1>
+          </div>
+          <div className="mt-4 flex items-center gap-2 px-2 py-1 bg-blue-500/10 rounded-full w-fit border border-blue-500/20">
+            <div className="w-1.5 h-1.5 bg-blue-500 rounded-full animate-pulse"></div>
+            <span className="text-[9px] font-bold text-blue-400 uppercase tracking-wider">Professional Version</span>
+          </div>
         </div>
 
         <div className="p-6 space-y-8 flex-1">
